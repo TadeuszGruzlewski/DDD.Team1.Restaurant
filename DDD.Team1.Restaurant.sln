@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant", "DDD._Team1_Restaurant\Restaurant.csproj", "{B07C091F-428B-4154-B6C2-F3E31BA80510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinner", "Dinner\Dinner.csproj", "{9BB107D3-2AD0-4FB1-B708-EF3B26530B28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLLs", "DLLs", "{1747FE16-ED8D-4CFD-9534-8F513162F3E4}"
+	ProjectSection(SolutionItems) = preProject
+		DLLs\DDD.Foundations.dll = DLLs\DDD.Foundations.dll
+		DLLs\DDD.Primitives.dll = DLLs\DDD.Primitives.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B07C091F-428B-4154-B6C2-F3E31BA80510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07C091F-428B-4154-B6C2-F3E31BA80510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07C091F-428B-4154-B6C2-F3E31BA80510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07C091F-428B-4154-B6C2-F3E31BA80510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB107D3-2AD0-4FB1-B708-EF3B26530B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB107D3-2AD0-4FB1-B708-EF3B26530B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB107D3-2AD0-4FB1-B708-EF3B26530B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB107D3-2AD0-4FB1-B708-EF3B26530B28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {689E2A9B-0FB3-4B13-BE23-CAB755D1DFF9}
+	EndGlobalSection
+EndGlobal
